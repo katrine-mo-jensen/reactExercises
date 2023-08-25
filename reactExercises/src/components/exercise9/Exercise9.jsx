@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Wrapper } from "../wrapper/Wrapper";
 import { Card } from "./Card";
 
+
 export function Exercise9() {
   const [userData, setUserData] = useState([]);
 
