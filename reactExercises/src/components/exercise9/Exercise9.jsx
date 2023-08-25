@@ -26,8 +26,7 @@ export function Exercise9() {
               <Card
                 key={item.uid}
                 src={item.avatar}
-                firstName={item.first_name}
-                lastName={item.last_name}
+                name={item.first_name + " " + item.last_name}
                 title={item.employment.title}
                 keySkill={item.employment.key_skill}
               />
